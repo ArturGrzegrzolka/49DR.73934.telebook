@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KsiazkaTeleadresowa", "KsiazkaTeleadresowa.csproj", "{F41E1897-B0B7-48BD-AA6E-CF3D7842F0DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F41E1897-B0B7-48BD-AA6E-CF3D7842F0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41E1897-B0B7-48BD-AA6E-CF3D7842F0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41E1897-B0B7-48BD-AA6E-CF3D7842F0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41E1897-B0B7-48BD-AA6E-CF3D7842F0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67DD1B2E-ED7C-4B10-BC97-E9976B17EF60}
+	EndGlobalSection
+EndGlobal
