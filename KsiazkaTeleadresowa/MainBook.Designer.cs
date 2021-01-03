@@ -1,5 +1,4 @@
-﻿
-namespace KsiazkaTeleadresowa_v_1._0
+﻿namespace KsiazkaTeleadresowa
 {
     partial class MainBook
     {
@@ -30,12 +29,13 @@ namespace KsiazkaTeleadresowa_v_1._0
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -49,20 +49,7 @@ namespace KsiazkaTeleadresowa_v_1._0
             this.label1.Size = new System.Drawing.Size(492, 67);
             this.label1.TabIndex = 26;
             this.label1.Text = "Książka teleadresowa";
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.DimGray;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(304, 221);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(187, 88);
-            this.button13.TabIndex = 32;
-            this.button13.Text = "Reset";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+
             // 
             // button10
             // 
@@ -118,7 +105,6 @@ namespace KsiazkaTeleadresowa_v_1._0
             this.button3.TabIndex = 28;
             this.button3.Text = "Szukaj";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button1
             // 
@@ -134,6 +120,33 @@ namespace KsiazkaTeleadresowa_v_1._0
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(13, 76);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(182, 31);
+            this.label2.TabIndex = 33;
+            this.label2.Text = "menu główne:";
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.DimGray;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold);
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Location = new System.Drawing.Point(305, 220);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(186, 89);
+            this.button13.TabIndex = 34;
+            this.button13.Text = "Reset";
+            this.button13.UseVisualStyleBackColor = false;
+
+            // 
             // MainBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -141,6 +154,7 @@ namespace KsiazkaTeleadresowa_v_1._0
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(708, 315);
             this.Controls.Add(this.button13);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
@@ -159,12 +173,13 @@ namespace KsiazkaTeleadresowa_v_1._0
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button13;
     }
 }
 
