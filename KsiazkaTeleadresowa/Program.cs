@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KsiazkaTeleadresowa
+namespace KsiazkaTeleadresowa_v_1._0
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace KsiazkaTeleadresowa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainBook());
         }
     }
 }

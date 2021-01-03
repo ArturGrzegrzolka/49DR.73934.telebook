@@ -1,0 +1,10 @@
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.csprojAssemblyReference.cache
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa_v_1._0.MainBook.resources
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.Properties.Resources.resources
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.csproj.GenerateResource.cache
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.csproj.CoreCompileInputs.cache
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\bin\Debug\KsiazkaTeleadresowa.exe.config
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\bin\Debug\KsiazkaTeleadresowa.exe
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\bin\Debug\KsiazkaTeleadresowa.pdb
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.exe
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.pdb
