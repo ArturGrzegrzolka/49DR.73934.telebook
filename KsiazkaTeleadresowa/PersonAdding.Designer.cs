@@ -96,6 +96,7 @@
             this.shapeContainer1.Size = new System.Drawing.Size(1007, 729);
             this.shapeContainer1.TabIndex = 12;
             this.shapeContainer1.TabStop = false;
+            this.shapeContainer1.Load += new System.EventHandler(this.shapeContainer1_Load);
             // 
             // lineShape1
             // 
@@ -124,12 +125,13 @@
             this.button1.Font = new System.Drawing.Font("Segoe UI Light", 12.75F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(36, 674);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(208, 39);
             this.button1.TabIndex = 13;
             this.button1.Text = "Anuluj";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -147,7 +149,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(267, 102);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(368, 22);
             this.textBox1.TabIndex = 15;
@@ -242,6 +244,7 @@
             this.label9.Size = new System.Drawing.Size(109, 24);
             this.label9.TabIndex = 22;
             this.label9.Text = "Nr tel. kom:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -255,6 +258,7 @@
             this.label10.Size = new System.Drawing.Size(191, 24);
             this.label10.TabIndex = 23;
             this.label10.Text = "Nr tel. stacjonarnego:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
@@ -281,6 +285,7 @@
             this.label12.Size = new System.Drawing.Size(121, 24);
             this.label12.TabIndex = 25;
             this.label12.Text = "Adres e-mail:";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -294,11 +299,12 @@
             this.label13.Size = new System.Drawing.Size(130, 24);
             this.label13.TabIndex = 26;
             this.label13.Text = "Strona WWW:";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(267, 150);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(368, 22);
             this.textBox2.TabIndex = 27;
@@ -306,7 +312,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(267, 198);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(368, 22);
             this.textBox3.TabIndex = 28;
@@ -314,7 +320,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(267, 246);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(368, 22);
             this.textBox4.TabIndex = 29;
@@ -322,7 +328,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(267, 294);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(368, 22);
             this.textBox5.TabIndex = 30;
@@ -330,7 +336,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(267, 341);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(368, 22);
             this.textBox6.TabIndex = 31;
@@ -338,7 +344,7 @@
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(267, 389);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(368, 22);
             this.textBox7.TabIndex = 32;
@@ -346,7 +352,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(267, 437);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(368, 22);
             this.textBox8.TabIndex = 33;
@@ -354,7 +360,7 @@
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(267, 485);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(368, 22);
             this.textBox9.TabIndex = 34;
@@ -362,7 +368,7 @@
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(267, 532);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(368, 22);
             this.textBox10.TabIndex = 35;
@@ -370,7 +376,7 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(267, 580);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(368, 22);
             this.textBox11.TabIndex = 36;
@@ -378,7 +384,7 @@
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(267, 628);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(368, 22);
             this.textBox12.TabIndex = 37;
@@ -390,12 +396,13 @@
             this.button13.Font = new System.Drawing.Font("Segoe UI Light", 12.25F);
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.Location = new System.Drawing.Point(756, 674);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(208, 39);
             this.button13.TabIndex = 38;
             this.button13.Text = "Zapisz i dodaj";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label14
             // 
@@ -601,7 +608,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.shapeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PersonAdding";
             this.Text = "AddPersonForm";
             this.ResumeLayout(false);

@@ -382,5 +382,32 @@ namespace KsiazkaTeleadresowa
             }
             return value;
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void shapeContainer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }
