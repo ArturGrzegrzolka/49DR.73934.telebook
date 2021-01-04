@@ -49,7 +49,6 @@
             this.label1.Size = new System.Drawing.Size(492, 67);
             this.label1.TabIndex = 26;
             this.label1.Text = "Książka teleadresowa";
-
             // 
             // button10
             // 
@@ -105,6 +104,7 @@
             this.button3.TabIndex = 28;
             this.button3.Text = "Szukaj";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -145,7 +145,7 @@
             this.button13.TabIndex = 34;
             this.button13.Text = "Reset";
             this.button13.UseVisualStyleBackColor = false;
-
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // MainBook
             // 

@@ -11,3 +11,5 @@ C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\De
 C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
 C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.csproj.CopyComplete
 C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.csprojAssemblyReference.cache
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.PersonSearching.resources
+C:\Users\artur\Documents\WSM_repo\49DR.73934.telebook\KsiazkaTeleadresowa\obj\Debug\KsiazkaTeleadresowa.ShowPerson.resources

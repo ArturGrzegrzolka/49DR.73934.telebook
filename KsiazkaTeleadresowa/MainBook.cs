@@ -15,6 +15,7 @@ namespace KsiazkaTeleadresowa
         #region declaration
         private Point wspolrzedneKursoraMyszki;
         private bool wcisnietyPrzyciskMyszki = false;
+        PersonSearching oknoWyszukaj; 
         AdressBook ksiazkateleadresowa;
         #endregion 
 
@@ -113,7 +114,10 @@ namespace KsiazkaTeleadresowa
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            oknoWyszukaj = PersonSearching.Instance;
+            oknoWyszukaj.refreshData();
+            oknoWyszukaj.Show();
+            this.Hide();
         }
 
         private void button10_Click(object sender, EventArgs e)
