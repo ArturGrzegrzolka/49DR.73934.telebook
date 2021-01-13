@@ -46,7 +46,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(492, 67);
+            this.label1.Size = new System.Drawing.Size(396, 54);
             this.label1.TabIndex = 26;
             this.label1.Text = "Książka teleadresowa";
             // 
@@ -56,9 +56,9 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(12, 220);
+            this.button10.Location = new System.Drawing.Point(12, 208);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(286, 89);
+            this.button10.Size = new System.Drawing.Size(286, 76);
             this.button10.TabIndex = 31;
             this.button10.Text = "Eksportuj do excela";
             this.button10.UseVisualStyleBackColor = false;
@@ -72,7 +72,7 @@
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(497, 126);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(176, 89);
+            this.button6.Size = new System.Drawing.Size(176, 76);
             this.button6.TabIndex = 30;
             this.button6.Text = "Minimalizuj";
             this.button6.UseVisualStyleBackColor = false;
@@ -86,7 +86,7 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(304, 126);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(187, 89);
+            this.button4.Size = new System.Drawing.Size(187, 76);
             this.button4.TabIndex = 29;
             this.button4.Text = "Dodaj";
             this.button4.UseVisualStyleBackColor = false;
@@ -100,7 +100,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(12, 126);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 89);
+            this.button3.Size = new System.Drawing.Size(286, 76);
             this.button3.TabIndex = 28;
             this.button3.Text = "Szukaj";
             this.button3.UseVisualStyleBackColor = false;
@@ -112,9 +112,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(497, 221);
+            this.button1.Location = new System.Drawing.Point(497, 208);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 88);
+            this.button1.Size = new System.Drawing.Size(176, 76);
             this.button1.TabIndex = 27;
             this.button1.Text = "Wyjście";
             this.button1.UseVisualStyleBackColor = false;
@@ -128,7 +128,7 @@
             this.label2.Location = new System.Drawing.Point(13, 76);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 31);
+            this.label2.Size = new System.Drawing.Size(145, 25);
             this.label2.TabIndex = 33;
             this.label2.Text = "menu główne:";
             // 
@@ -138,10 +138,10 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold);
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(305, 220);
+            this.button13.Location = new System.Drawing.Point(304, 208);
             this.button13.Margin = new System.Windows.Forms.Padding(4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(186, 89);
+            this.button13.Size = new System.Drawing.Size(186, 76);
             this.button13.TabIndex = 34;
             this.button13.Text = "Reset";
             this.button13.UseVisualStyleBackColor = false;
@@ -149,7 +149,7 @@
             // 
             // MainBook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(708, 315);

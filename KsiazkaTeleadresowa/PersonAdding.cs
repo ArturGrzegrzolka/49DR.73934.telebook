@@ -143,7 +143,6 @@ namespace KsiazkaTeleadresowa
             textBox10.Text = "";
             textBox11.Text = "";
             textBox12.Text = "";
-            //pictureBox1.Image = new Bitmap(Properties.Resources.tloStandard1);
 
 
         }
@@ -163,9 +162,9 @@ namespace KsiazkaTeleadresowa
                     osoba.numerMieszkania = textBox5.Text;
                     osoba.kodPocztowy = textBox6.Text;
                     osoba.miejscowosc = textBox7.Text;
-                    osoba.komorka = textBox8.Text;
-                    osoba.stacjonarny = textBox9.Text;
-                    osoba.fax = textBox10.Text;
+                    osoba.komorka = System.Text.RegularExpressions.Regex.Replace(textBox8.Text, "[^0-9]", string.Empty);
+                    osoba.stacjonarny = System.Text.RegularExpressions.Regex.Replace(textBox9.Text, "[^0-9]", string.Empty);
+                    osoba.fax = System.Text.RegularExpressions.Regex.Replace(textBox10.Text, "[^0-9]", string.Empty);
                     osoba.adresEmail = textBox11.Text;
                     osoba.www = textBox12.Text;
                     osoba.photo = null;
@@ -185,7 +184,6 @@ namespace KsiazkaTeleadresowa
             }
 
         }
-
         private bool validationFields()
         {
             bool value = true;
@@ -294,7 +292,7 @@ namespace KsiazkaTeleadresowa
                 textBox7.BackColor = System.Drawing.Color.White;
                 label20.Visible = false;
             }
-
+            textBox8.Text = System.Text.RegularExpressions.Regex.Replace(textBox8.Text, "[^0-9]", string.Empty);
             if (textBox8.Text.Length > 9 ||
               (!System.Text.RegularExpressions.Regex.IsMatch(textBox8.Text, @"^\d{9}$"))
           || textBox8.Text.Length == 0)
@@ -315,6 +313,7 @@ namespace KsiazkaTeleadresowa
             }
             else
             {
+                textBox9.Text = System.Text.RegularExpressions.Regex.Replace(textBox9.Text, "[^0-9]", string.Empty);
                 if (textBox9.Text.Length > 9 ||
                  (!System.Text.RegularExpressions.Regex.IsMatch(textBox9.Text, @"^\d{9}$")))
                 {
@@ -335,6 +334,7 @@ namespace KsiazkaTeleadresowa
             }
             else
             {
+                textBox10.Text = System.Text.RegularExpressions.Regex.Replace(textBox10.Text, "[^0-9]", string.Empty);
                 if (textBox10.Text.Length > 9 ||
                  (!System.Text.RegularExpressions.Regex.IsMatch(textBox10.Text, @"^\d{9}$")))
                 {
@@ -408,6 +408,10 @@ namespace KsiazkaTeleadresowa
 
         }
 
+        private void PersonAdding_Load(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }

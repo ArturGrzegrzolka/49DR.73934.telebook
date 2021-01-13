@@ -84,8 +84,8 @@
     <numerDomu>47</numerDomu>
     <kodPocztowy>41-403</kodPocztowy>
     <miejscowosc>Chełm Śląski</miejscowosc>
-    <komorka>53 380 83 17</komorka>
-    <stacjonarny>53 380 83 17</stacjonarny>
+    <komorka>533808317</komorka>
+    <stacjonarny>533808317</stacjonarny>
     <fax>brak</fax>
     <adresEmail>BazyliAdamski@fleckens.hu</adresEmail>
     <www>brak</www>
@@ -114,8 +114,8 @@
     <numerDomu>78</numerDomu>
     <kodPocztowy>93-574</kodPocztowy>
     <miejscowosc>Łódź</miejscowosc>
-    <komorka>51 801 39 00</komorka>
-    <stacjonarny>51 801 39 00</stacjonarny>
+    <komorka>518013900</komorka>
+    <stacjonarny>518013900</stacjonarny>
     <fax>brak</fax>
     <adresEmail>GabrysDudek@dayrep.com</adresEmail>
     <www>brak</www>
@@ -15006,5 +15006,20 @@
     <adresEmail>zuzanna.testowa@gmail.com</adresEmail>
     <www>brak</www>
     <photo>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</photo>
+  </Person>
+  <Person>
+    <id>1001</id>
+    <imie>zenon</imie>
+    <nazwisko>testowy</nazwisko>
+    <ulica>testowa</ulica>
+    <numerMieszkania>1</numerMieszkania>
+    <numerDomu>1</numerDomu>
+    <kodPocztowy>00-950</kodPocztowy>
+    <miejscowosc>warszawa</miejscowosc>
+    <komorka>880880880</komorka>
+    <stacjonarny>brak</stacjonarny>
+    <fax>brak</fax>
+    <adresEmail>zenon.testowy@test.com</adresEmail>
+    <www>brak</www>
   </Person>
 </ArrayOfPerson>

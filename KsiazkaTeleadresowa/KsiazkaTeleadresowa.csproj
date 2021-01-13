@@ -119,12 +119,5 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="Resources\1.png" />
-    <Content Include="Resources\2.png" />
-    <Content Include="Resources\21.png" />
-    <Content Include="Resources\tloStandard.jpg" />
-    <Content Include="Resources\tloStandard1.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

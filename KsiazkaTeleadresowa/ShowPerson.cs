@@ -20,7 +20,6 @@ namespace KsiazkaTeleadresowa
         private ShowPerson()
         {
             InitializeComponent();
-            inicjalizacjaKomponentow();
             ksiazkaadresowa = AdressBook.Instance;
         }
 
@@ -154,21 +153,13 @@ namespace KsiazkaTeleadresowa
             if (validationFields())
             {
                 textBox1.Visible = false;
-
                 textBox2.Visible = false;
-
                 textBox3.Visible = false;
-
                 textBox4.Visible = false;
-
                 textBox5.Visible = false;
-
                 textBox6.Visible = false;
-
                 textBox7.Visible = false;
-
                 textBox8.Visible = false;
-
                 textBox9.Visible = false;
                 textBox10.Visible = false;
 
@@ -199,7 +190,18 @@ namespace KsiazkaTeleadresowa
                 button1.Visible = true;
             }
         }
-
+        public static bool IsValidPhoneNumber(string strPhone)
+        {
+            string regExPattern = @"^[01]?[- .]?(\([2-9]\d{2}\)|[2-9]\d{2})[- .]?\d{3}[- .]?\d{4}$";
+            return MatchStringFromRegex(strPhone, regExPattern);
+        }
+        // Function which is used in IsValidPhoneNumber function
+        public static bool MatchStringFromRegex(string str, string regexstr)
+        {
+            str = str.Trim();
+            System.Text.RegularExpressions.Regex pattern = new System.Text.RegularExpressions.Regex(regexstr);
+            return pattern.IsMatch(str);
+        }
 
         private bool validationFields()
         {
@@ -207,8 +209,8 @@ namespace KsiazkaTeleadresowa
 
 
             if (textBox1.Text.Length > 75 ||
-              (!System.Text.RegularExpressions.Regex.IsMatch(textBox1.Text, @"^[a-zA-Z]+$"))
-          || textBox1.Text.Length == 0)
+              (!System.Text.RegularExpressions.Regex.IsMatch(textBox1.Text, @"^[A-Ża-ż\s]{1,}$"))
+            || textBox1.Text.Length == 0)
             {
                 textBox1.BackColor = System.Drawing.Color.Red;
                 //label16.Visible = true;
@@ -270,7 +272,7 @@ namespace KsiazkaTeleadresowa
             }
 
             if (textBox5.Text.Length > 75 ||
-                (!System.Text.RegularExpressions.Regex.IsMatch(textBox5.Text, @"^[a-zA-Z]+$"))
+                (!System.Text.RegularExpressions.Regex.IsMatch(textBox5.Text, @"^[A-Ża-ż\s]{1,}$"))
             || textBox5.Text.Length == 0)
             {
                 textBox5.BackColor = System.Drawing.Color.Red;
@@ -282,8 +284,8 @@ namespace KsiazkaTeleadresowa
                 textBox5.BackColor = System.Drawing.Color.White;
                 //label20.Visible = false;
             }
-
-            if (textBox6.Text.Length > 9 ||
+            textBox6.Text = System.Text.RegularExpressions.Regex.Replace(textBox6.Text, "[^0-9]", string.Empty);
+            if (textBox6.Text.Length > 11 ||
               (!System.Text.RegularExpressions.Regex.IsMatch(textBox6.Text, @"^\d{9}$"))
           || textBox6.Text.Length == 0)
             {
@@ -296,7 +298,7 @@ namespace KsiazkaTeleadresowa
                 textBox6.BackColor = System.Drawing.Color.White;
                 //label21.Visible = false;
             }
-
+            textBox7.Text = System.Text.RegularExpressions.Regex.Replace(textBox7.Text, "[^0-9]", string.Empty);
             if (textBox7.Text.Length == 0 || textBox7.Text == "brak")
             {
                 textBox7.Text = "brak";
@@ -316,7 +318,7 @@ namespace KsiazkaTeleadresowa
                     //label22.Visible = false;
                 }
             }
-
+            textBox8.Text = System.Text.RegularExpressions.Regex.Replace(textBox8.Text, "[^0-9]", string.Empty);
             if (textBox8.Text.Length == 0 || textBox8.Text == "brak")
             {
                 textBox8.Text = "brak";
@@ -338,7 +340,8 @@ namespace KsiazkaTeleadresowa
             }
 
             if (textBox9.Text.Length > 30 ||
-                (!System.Text.RegularExpressions.Regex.IsMatch(textBox9.Text, @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")))
+               (!System.Text.RegularExpressions.Regex.IsMatch(textBox9.Text, @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")) || 
+               textBox9.Text.Length == 0)
             {
                 textBox9.BackColor = System.Drawing.Color.Red;
                 //label24.Visible = true;
@@ -372,6 +375,16 @@ namespace KsiazkaTeleadresowa
         }
 
         private void shapeContainer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowPerson_Load_1(object sender, EventArgs e)
         {
 
         }

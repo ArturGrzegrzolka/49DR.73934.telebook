@@ -57,10 +57,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Light", 12.75F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(975, 433);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(731, 352);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(208, 44);
+            this.button1.Size = new System.Drawing.Size(156, 36);
             this.button1.TabIndex = 1;
             this.button1.Text = "Powrót";
             this.button1.UseVisualStyleBackColor = false;
@@ -70,10 +69,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(16, 140);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 28);
+            this.label1.Size = new System.Drawing.Size(158, 21);
             this.label1.TabIndex = 4;
             this.label1.Text = "Wyniki wyszukiwania : ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -84,10 +82,9 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI Light", 12.75F);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(975, 78);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Location = new System.Drawing.Point(731, 63);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(208, 39);
+            this.button6.Size = new System.Drawing.Size(156, 32);
             this.button6.TabIndex = 9;
             this.button6.Text = "Wyszukaj";
             this.button6.UseVisualStyleBackColor = false;
@@ -95,11 +92,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(23, 78);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Location = new System.Drawing.Point(17, 63);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(943, 38);
+            this.textBox1.Size = new System.Drawing.Size(708, 32);
             this.textBox1.TabIndex = 10;
             this.textBox1.Text = "Wprowadź szukaną frazę...";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -112,10 +108,9 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(78)))), ((int)(((byte)(84)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(16, 25);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(12, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(601, 37);
+            this.label2.Size = new System.Drawing.Size(473, 30);
             this.label2.TabIndex = 11;
             this.label2.Text = "Wprowadź frazę na temat osoby aby ją wyszukać.";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -138,10 +133,9 @@
             this.www});
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(16, 170);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Location = new System.Drawing.Point(12, 138);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1165, 255);
+            this.listView1.Size = new System.Drawing.Size(875, 208);
             this.listView1.TabIndex = 12;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -230,7 +224,7 @@
             this.shapeContainer1.Name = "shapeContainer1";
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.rectangleShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(1199, 492);
+            this.shapeContainer1.Size = new System.Drawing.Size(899, 400);
             this.shapeContainer1.TabIndex = 13;
             this.shapeContainer1.TabStop = false;
             this.shapeContainer1.Load += new System.EventHandler(this.shapeContainer1_Load);
@@ -250,10 +244,10 @@
             // 
             // PersonSearching
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(203)))), ((int)(((byte)(211)))));
-            this.ClientSize = new System.Drawing.Size(1199, 492);
+            this.BackColor = System.Drawing.Color.Wheat;
+            this.ClientSize = new System.Drawing.Size(899, 400);
             this.ControlBox = false;
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label2);
@@ -264,7 +258,6 @@
             this.Controls.Add(this.shapeContainer1);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PersonSearching";
